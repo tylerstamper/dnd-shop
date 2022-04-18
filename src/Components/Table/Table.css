@@ -1,0 +1,28 @@
+.table-container{
+    background-color: darkslategray;
+    height: 0;
+    padding: 0;
+    /* 
+    padding and hieght are changed in the Form.js module to allow
+    the generate button to size them into the dom when loaded with data
+    */
+}
+.Table{
+    width: 90%;
+    margin: auto;
+    background-color: darkslateblue;
+}
+.Table .table-header{
+    background-color: dodgerblue;
+}
+.Table .table-body{
+    background-color: cornflowerblue;
+}
+.Table .table-body > tr td input{
+    width: 4rem;
+}
+@media only screen and (min-width: 600px) {
+    .Table{
+        max-width: 500px;
+    }
+}
